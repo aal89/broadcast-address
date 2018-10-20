@@ -12,4 +12,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial commit, version 1 released.
 
-[1.0.0]: https://github.com/aal89/has-deep-value/commit/a29a54c71e21328cd023ed2e4c8a944beefe8849
+[1.0.1]: https://github.com/aal89/broadcast-address/commit/bc3c8056571bc7d51ba2178ded50c2a0635c2dab
+[1.0.0]: https://github.com/aal89/broadcast-address/commit/c27a89473bed5f57215fc53c19de641d8749b3eb
