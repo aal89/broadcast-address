@@ -39,7 +39,7 @@ broadcastAddress('en1'); //-> 192.168.178.255
 Included is an `index.d.ts` file, Typescript should automatically pick this file up and apply the typings across your codebase.
 
 ```typescript
-import { broadcastAddress } from "broadcast-address";
+import * as broadcastAddress from "broadcast-address";
  
 broadcastAddress("lo0"); //-> 127.255.255.255
 broadcastAddress("lo0", "127.0.0.1"); //-> 127.255.255.255
