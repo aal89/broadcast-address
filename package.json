@@ -22,7 +22,10 @@
     "broadcast",
     "address",
     "network",
-    "interface"
+    "interface",
+    "cidr",
+    "subnet",
+    "ipv4"
   ],
   "author": "Alex",
   "license": "MIT",
