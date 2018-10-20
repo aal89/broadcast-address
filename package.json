@@ -1,0 +1,40 @@
+{
+  "name": "broadcast-address",
+  "version": "1.0.0",
+  "description": "A simple utility tool to quickly calculate and return the broadcast address for a particular network interface.",
+  "main": "broadcast-address.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "clear && mocha tests/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aal89/broadcast-address.git"
+  },
+  "keywords": [
+    "simple",
+    "small",
+    "lightweight",
+    "typescript",
+    "calculate",
+    "broadcast",
+    "address",
+    "network",
+    "interface"
+  ],
+  "author": "Alex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aal89/broadcast-address/issues"
+  },
+  "homepage": "https://github.com/aal89/broadcast-address#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "has-deep-value": "1.1.0"
+  }
+}
