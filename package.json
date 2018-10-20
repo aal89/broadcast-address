@@ -1,6 +1,6 @@
 {
   "name": "broadcast-address",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple utility tool to quickly calculate and return the broadcast address for a particular network interface.",
   "main": "broadcast-address.js",
   "directories": {
