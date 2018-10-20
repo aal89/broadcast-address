@@ -19,7 +19,7 @@ $ npm install --save broadcast-address
 The function can also throw errors, namely:
 
 * **Unknown network interface (xyz).** of type *{Error}*: when an unknown network interface was given.
-* **No address info found. Specify a valid address.** of type *{Error}*: when no address info could be selected of that interface.
+* **No address info found. Specify a valid address.** of type *{Error}*: when no address info could be selected on that interface.
 
 
 ### Examples
@@ -41,9 +41,9 @@ Included is an `index.d.ts` file, Typescript should automatically pick this file
 ```typescript
 import { broadcastAddress } from "broadcast-address";
  
-broadcastAddress('lo0'); //-> 127.255.255.255
-broadcastAddress('lo0', '127.0.0.1'); //-> 127.255.255.255
-broadcastAddress('en1'); //-> 192.168.178.255
+broadcastAddress("lo0"); //-> 127.255.255.255
+broadcastAddress("lo0", "127.0.0.1"); //-> 127.255.255.255
+broadcastAddress("en1"); //-> 192.168.178.255
 ```
 
 *Note: the output is just exemplary.*
