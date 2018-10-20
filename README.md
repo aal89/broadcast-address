@@ -1,6 +1,6 @@
 # broadcast-address
 
-Consice and correct way to calculate the broadcast address for a particular network interface. You can calculate the broadcast address by doing a bitwise OR over
+Concise and correct way to calculate the broadcast address for a particular network interface. You can calculate the broadcast address by doing a bitwise OR over
 the bit complements of the subnet mask and the selected IP address.
 
 ## Install
